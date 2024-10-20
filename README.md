@@ -9,6 +9,7 @@
 * Patients - Start Video call instantly with the Doctors available
 * Doctors can toggle between Video call availability
 * Nodemailer feature to let the Doctor know the video call link via email
+![Videochat]([https://example.com/drone-image.jpg](https://github.com/p-geethika/Telemedicine-Platform/blob/main/website%20screenshots/video%20chat.png))
 
 ## Flow of this Application:
 *  Register as a Patient or Doctor
