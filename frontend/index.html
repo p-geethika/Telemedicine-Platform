@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemedicine Platform</title>
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f4f4f4, #e2e2e2);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #333;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 91, 187, 0.3);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 15px 50px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            animation: slideInDown 1s ease-in-out;
+        }
+
+        nav h1 {
+            color: #007bff;
+        }
+
+        #maincard {
+            margin: 50px 0;
+            padding: 20px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        #maincard img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        #maincard img:hover {
+            transform: scale(1.05);
+        }
+
+        #services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .service-card {
+            width: 30%;
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-card h1 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .service-card i {
+            font-size: 2em;
+            color: #007bff;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover i {
+            transform: rotate(360deg);
+        }
+
+        footer {
+            background-color: #fff;
+            margin-top: 50px;
+            padding: 20px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 3s ease-in-out;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #007bff;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        @media(max-width: 768px) {
+            .service-card {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="index">
+            <h1>MediCare</h1>
+        </div>
+
+        <div id="buttons">
+            <button id="login">LOGIN</button>
+            <button id="signup">SIGNUP</button>
+        </div>
+    </nav>
+
+    <div id="maincard">
+        <h1>Welcome to Telemedicine Platform</h1>
+        <img src="https://www.pococare.com/Images/banner_image.png" alt="By Geethika, Manikumar">
+    </div>
+
+    <h1>What We Offer</h1>
+
+    <div id="services">
+        <div class="service-card">
+            <i class="fas fa-user-md"></i>
+            <h1>Top Healthcare Professionals Across India</h1>
+            <img src="https://img.freepik.com/free-photo/doctors-shaking-hands-with-each-other_107420-84801.jpg?ga=GA1.1.1666296617.1727974497&semt=ais_hybrid" alt="Healthcare Professionals">
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-calendar-check"></i>
+            <h1>Easily Sign Up and Schedule Your Appointments</h1>
+            <img src="https://img.freepik.com/free-photo/calendar-agenda-event-meeting-reminder-schedule-graphic-concept_53876-125181.jpg?ga=GA1.1.1666296617.1727974497&semt=ais_hybrid" alt="Scheduling Appointments">
+        </div>
+
+        <div class="service-card">
+            <i class="fas fa-video"></i>
+            <h1>Enjoy Convenient Video Consultations with Our Expert Doctors</h1>
+            <img src="https://img.freepik.com/free-photo/old-disabled-woman-lying-hospital-bed-having-online-video-call-with-doctor-nurse-is-her_482257-20630.jpg?w=826&t=st=1687871700~exp=1687872300~hmac=0eda02317e5edf30b301b74a3acf912b496e8e67032765f2bc11d63e44e3fd39" alt="Video Consultation">
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://github.com/p-geethika">Follow us</a>
+        <br>
+        <a href="https://p-geethika.github.io/">For More information</a>
+    </footer>
+
+    <script>
+        const signup = document.getElementById("signup");
+        signup.addEventListener("click", () => {
+            window.location.href = "./view/signup.html";
+        });
+
+        const login = document.getElementById("login");
+        login.addEventListener("click", () => {
+            window.location.href = "./view/signin.html";
+        });
+    </script>
+</body>
+
+</html>
