@@ -1,28 +1,3 @@
-# Doctor_Appointment_Booking_Application
-
-## A Doctor's Appointment Booking System -lets you register and Login and be able to view Doctors, book appointments, view/reschedule and also delete appointments.
-
-
-### PS: As the backend deployed using Render, there is more than an expected delay, apologies for the inconvenience!
-
-## Demonstration Video: https://drive.google.com/file/d/1sAvTTrGPlbfzjCyN4ZQAwE8ncMNFI1z3/view?usp=sharing
-
-# Use these credentials to check out features:
-
-## Login as a Patient -
-email : user1@gmail.com  password : user1
-
-email : user2@gmail.com  password : user1
-
-email : patient11@gmail.com password: patient11
-
-
-## Login as a Doctor -
-email : doc1@gmail.com  password : doc1   --> has few appointments already
-
-email : pococare@gmail.com  password : pococare
-
-## If you wish to try the Video Call feature, Please register your email as Doctor and log in with any of the above dummy emails as a Patient and then proceed because Nodemailer doesn't send an email if Doctor's email used is a dummy.
 
 ### Features Implemented:
 * Authentication - JWT-based token
@@ -53,82 +28,9 @@ email : pococare@gmail.com  password : pococare
 *  View appointments booked
 
 *  Logout
-   
 
-## Tech Stacks used:
-[![My Skills](https://skillicons.dev/icons?i=js,nodejs,express,mongodb,html,css)](https://skillicons.dev)
-
-## Tools used:
-[![My Skills](https://skillicons.dev/icons?i=vercel,github)](https://skillicons.dev)
-<img alt="Coder GIF" height=50 width=80 src="https://www.w3schools.com/whatis/img_npm.jpg" />
-
-
-
-
-# Live Demo Link https://wecareyou.vercel.app/ 
 
 # Backend deployed using RENDER https://pococare1.onrender.com/
-
-# Home Page
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/fc64ac55-26d5-438f-ba2c-39c75b6e5aa8)
-
-# Login Page
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/791a559d-0908-40f4-aefd-90867e8383d5)
-
-# If you are a Doctor
-
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/52f852c3-191b-4473-8f3f-08f79d99e14c)
-
-# If you are a Patient
-
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/f30893d8-d55d-4e89-a487-1fa42342c0ef)
-
-
-
-# Patient Dashboard - Authenticated Route 
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/43c24b4a-126b-4e0c-8345-f0aa88927182)
-
-# Appointments  - Authenticated Route - You can also EDIT & DELETE your appointments
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/7ae53a8b-c630-4b98-b46f-d2253919d7de)
-
-
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/e186ba87-2a4d-4658-be90-343b6d99cf75)
-
-
-
-## You can also click For VIDEO CONSULTATION which will redirect to another page where you can click Start video button which will eventually trigger nodemailer with the VIDEO ROOM LINK 
-
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/76f9def2-1602-4b13-8b22-2d6f60ea1405)
-
-
-## Room page where patient and doctor can contact via Video call (here both people videos will be shown)
-
-![image](https://github.com/DhaanuI/Pococare_assignment/assets/112754832/b0efab74-d38d-4d54-8245-a108fa33588c)
-
-
-
-# How To:
-
-If you wish to run this project on your local machine
-
-Follow the given steps:
-
-* Clone our repository https://github.com/DhaanuI/Pococare_assignment
-
-* Open our code in VS code
-
-* Then do npm install to require the necessary packages and dependencies
-
-* Go to Backend folder - cd backend
-
-* do npm run server
-
-* Congrats! you have successfully started the application.
-
-## API end points
-
-api - https://pococare1.onrender.com/
-
 
 | METHOD | ENDPOINT | DESCRIPTION | STATUS CODE |
 | --- | --- | --- | --- |
